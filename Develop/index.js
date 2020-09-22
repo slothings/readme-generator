@@ -1,3 +1,9 @@
+// npm install this
+const inquirer = require("inquirer");
+const generateMarkdown = require("Develop/utils/generateMarkdown.js");
+const axios = require("axios");
+const fs = require("fs");
+
 // array of questions for user
 const questions = [
 
