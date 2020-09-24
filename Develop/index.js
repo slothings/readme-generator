@@ -1,6 +1,6 @@
 // npm install this
 const inquirer = require("inquirer");
-const generateMarkdown = require("Develop\utils\generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 const axios = require("axios");
 const fs = require("fs");
 
@@ -54,13 +54,23 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+fs.writeFile("README.md", generateMarkdown(answers), function(err) {
+    if (err) {
+        throw err;
+    }
+});
 
 // function to initialize program
 function init() {
-
-}
+    inquirer.prompt(questions).then(answers => {
+        console.log(answers);
+        axios
+            .get("https://api.github.com/users/" + answers.username)
+            .then(response => {
+                console.log(response);
+            })
+    })
+};
 
 // function call to initialize program
 init();
