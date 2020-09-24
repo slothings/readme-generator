@@ -1,0 +1,37 @@
+
+  #  README Generator
+  
+  ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
+  
+  this app generates a README for your project
+
+  ## Table of Contents
+  *[Installation](#install)
+  *[Usage](#usage)
+  *[Contributors](#contributors)
+  *[Test](#test)
+  *[Questions](#questions)
+  *[License](#license)
+  *[Author](#author)
+  
+  ## Installation
+  npm install and node.js
+  
+  ## Usage
+  Run node.js, answers the prompted questions, and a README will be generated
+  
+  ## Contributors
+  Seth Martineau
+  
+  ## Test
+  this is a test
+  
+  ## Questions
+  If you have any questions, contact slothings on GitHub
+  
+  ## License
+  idk
+  
+  ## Author
+  This application was authored by [Seth](slothings)
+  

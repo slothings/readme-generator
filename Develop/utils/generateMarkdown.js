@@ -32,7 +32,7 @@ function generateMarkdown(data) {
   If you have any questions, contact ${data.username} on GitHub
   
   ## License
-  
+  idk
   
   ## Author
   This application was authored by [${data.name}](${data.username})
