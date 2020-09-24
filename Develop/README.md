@@ -1,9 +1,9 @@
 
-  #  README Generator
+  #  Dummy README Generator
   
   ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
   
-  This app will generate a README
+  This application will generate a README after the user answers all of the prompted questions
 
   ## Table of Contents
   * [Installation](#install)
@@ -18,19 +18,39 @@
   npm install and node.js
   
   ## Usage
-  Run node index.js, answer the prompted questions, and a README will be generated
+  Run node index.js, answer the prompted questions, and a README will then be generated
   
   ## Contributors
   Seth Martineau
   
   ## Test
-  this is a test
+  This is a test
   
   ## Questions
   If you have any questions, contact slothings on GitHub
   
   ## License
-  idk
+  MIT License
+
+  Copyright (c) [2020] [Seth Martineau]
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
   
   ## Author
   This application was authored by [Seth Martineau](https://github.com/slothings)
