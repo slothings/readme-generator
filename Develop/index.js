@@ -63,7 +63,7 @@ function init() {
             console.log(response);
 
             // function to write README file
-            fs.writeFile("README2.md", generateMarkdown(answers), function(err) {
+            fs.writeFile("README.md", generateMarkdown(answers), function(err) {
                 if (err) {
                     throw err;
                 }

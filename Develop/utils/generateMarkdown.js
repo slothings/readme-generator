@@ -8,13 +8,13 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  *[Installation](#install)
-  *[Usage](#usage)
-  *[Contributors](#contributors)
-  *[Test](#test)
-  *[Questions](#questions)
-  *[License](#license)
-  *[Author](#author)
+  * [Installation](#install)
+  * [Usage](#usage)
+  * [Contributors](#contributors)
+  * [Test](#test)
+  * [Questions](#questions)
+  * [License](#license)
+  * [Author](#author)
   
   ## Installation
   ${data.install}
