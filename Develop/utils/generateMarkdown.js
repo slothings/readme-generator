@@ -35,7 +35,7 @@ function generateMarkdown(data) {
   idk
   
   ## Author
-  This application was authored by [${data.name}](${data.username})
+  This application was authored by [${data.name}](https://github.com/${data.username})
   `;
 }
 

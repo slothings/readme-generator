@@ -33,5 +33,5 @@
   idk
   
   ## Author
-  This application was authored by [Seth Martineau](slothings)
+  This application was authored by [Seth Martineau](https://github.com/slothings)
   
