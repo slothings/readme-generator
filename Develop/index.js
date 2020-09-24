@@ -53,24 +53,25 @@ const questions = [
     },
 ];
 
-// function to write README file
-fs.writeFile("README.md", generateMarkdown(answers), function(err) {
-    if (err) {
-        throw err;
-    }
-});
-
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
         axios
-            .get("https://api.github.com/users/" + answers.username)
-            .then(response => {
-                console.log(response);
-            })
+        .get("https://api.github.com/users/" + answers.username)
+        .then(response => {
+            console.log(response);
+            
+            // function to write README file
+            fs.writeFile("README.md", generateMarkdown(answers), function(err) {
+                if (err) {
+                    throw err;
+                }
+            });
+        })
     })
 };
+
 
 // function call to initialize program
 init();
