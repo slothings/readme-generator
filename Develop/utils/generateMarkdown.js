@@ -33,6 +33,7 @@ function generateMarkdown(data) {
   
   ## License
   
+  
   ## Author
   This application was authored by [${data.name}](${data.username})
   `;
