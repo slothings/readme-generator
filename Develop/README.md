@@ -3,7 +3,7 @@
   
   ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
   
-  This application will generate a README after the user answers all of the prompted questions
+  This application will generate a README after the user answers the prompted questions
 
   ## Table of Contents
   * [Installation](#install)
@@ -18,7 +18,7 @@
   npm install and node.js
   
   ## Usage
-  Run node index.js, answer the prompted questions, and a README will then be generated
+  Run node index.js, answer the prompted questions, and then a README will be generated
   
   ## Contributors
   Seth Martineau
@@ -32,7 +32,7 @@
   ## License
   MIT License
 
-  Copyright (c) [2020] [Seth Martineau]
+  Copyright (c) 2020 Seth Martineau
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal

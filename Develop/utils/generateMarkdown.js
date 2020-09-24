@@ -34,7 +34,7 @@ function generateMarkdown(data) {
   ## License
   MIT License
 
-  Copyright (c) [${data.year}] [${data.name}]
+  Copyright (c) ${data.year} ${data.name}
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
