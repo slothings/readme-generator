@@ -3,7 +3,7 @@
   
   ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
   
-  This application will generate a README after the user answers the prompted questions
+  This application will generate a README after the user answers all of the prompted questions
 
   ## Table of Contents
   * [Installation](#install)
