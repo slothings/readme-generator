@@ -1,5 +1,4 @@
-
-  #  Dummy README Generator
+  # Dummy README Generator
   
   ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
   
@@ -54,4 +53,3 @@
   
   ## Author
   This application was authored by [Seth Martineau](https://github.com/slothings)
-  
