@@ -4,7 +4,7 @@
 
 This is a command-line application that dynamically generates a professional README.md from a user's input. 
 
-![Application landing page]()
+![Application landing page](Develop/READMEgeneratorSS.JPG)
 
 [README Generator](https://slothings.github.io/readme-generator/) is hosted on GitHub Pages
 
