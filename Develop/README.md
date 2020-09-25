@@ -1,5 +1,5 @@
 
-  #  Dummy README Generator
+  #  Dummy README
   
   ![GitHub top language](https://img.shields.io/github/languages/top/slothings/readme-generator)
   
